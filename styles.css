@@ -51,7 +51,9 @@ body {
   margin-left: 15px;
   font-size: 1.2rem;
 }
-
+.gapper{
+  gap:2em;
+}
 .navbar {
   background: var(--white);
   padding: 10px 5%;
@@ -274,6 +276,8 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 h1 {
